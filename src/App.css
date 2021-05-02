@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.main-div{
+  background-color: white;
+  height:350px;
+  width:350px;
+  border: 1px solid black;
+  border-radius:25px;
+  display: flexbox;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.top-div{
+  display: flexbox;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 5%;
+}
+.profile-pic{
+  height: 75px;
+  width: 75px;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 50%;
+  position:absolute;
+}
+
+.name{
+  /* float: right; */
+  position: absolute;
+  margin-left:30%;
+  margin-top: 4%;
+}
+
+.profile-name{
+  font-size: 23px;
+}
+.user-name{
+  font-size: 15px;
+  color:grey;
+}
+
+.tweet-div{
+  align-items: center;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 4%;
+  font-size: 25px;
+}
+
+.bottom-div{
+  position: absolute;
+  width: 816px;
+  height: 106px;
+  position: absolute;
+  left: 7.14%;
+  right: 7.14%;
+  top: 21.43%;
+  bottom: 21.43%;
+}
+
